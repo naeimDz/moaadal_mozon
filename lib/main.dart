@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:moaadal_mozon/src/Services/shared_preferences_service.dart';
+import 'package:moaadal_mozon/src/Views/Screens/Home/home.dart';
+import 'package:moaadal_mozon/src/preferences/shared_preferences_service.dart';
+import 'package:moaadal_mozon/src/Views/Screens/Onboarding/onboarding_one.dart';
+import 'package:moaadal_mozon/src/provider/field_provider.dart';
+import 'package:provider/provider.dart';
+import 'src/core/themes/theme_constants.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,25 +21,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Flutter Demo Home Page"),
-      ),
-      body: const Center(
-        child: Icon(Icons.add),
+      theme: AppTheme.lightTheme,
+      home: ChangeNotifierProvider<FieldProvider>(
+        create: (context) => FieldProvider(),
+        child: const OnboardingOne(),
       ),
     );
   }

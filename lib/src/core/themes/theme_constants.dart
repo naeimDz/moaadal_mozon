@@ -35,22 +35,29 @@ class AppTheme {
           statusBarBrightness: Brightness.light,
           systemNavigationBarColor: AppColors.scaffoldBackground,
         ),
-        iconTheme: IconThemeData(color: AppColors.primary),
+        iconTheme: IconThemeData(color: AppColors.whiteText),
         titleTextStyle: TextStyle(
-          color: Colors.black,
+          color: AppColors.whiteText,
           fontFamily: AppTextStyles.fontFamily,
         ),
         centerTitle: true,
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          foregroundColor: Colors.white,
+          foregroundColor: AppColors.whiteText,
           backgroundColor: AppColors.primary,
           padding: const EdgeInsets.all(AppDefaults.padding),
           shape: RoundedRectangleBorder(
             borderRadius: AppDefaults.borderRadius,
           ),
         ),
+      ),
+      chipTheme: const ChipThemeData(
+        labelStyle: TextStyle(
+          color: AppColors.blackText,
+        ),
+        selectedColor: AppColors.primary,
+        showCheckmark: true,
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(

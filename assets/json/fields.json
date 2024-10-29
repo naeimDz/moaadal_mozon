@@ -1,0 +1,359 @@
+{
+  "fields": [
+    {
+      "field_name": "ميدان علوم الأرض والكون",
+      "moyen":true,
+      "format":["science"]  ,
+      "specializations": [
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "الرياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم الطبيعة والحياة",
+      "moyen":true,
+      "format":["science"]  ,
+      "specializations": [
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "الرياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "علوم طبية",
+      "moyen":true,
+      "format":["science"]  ,
+      "specializations": [
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "الرياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم الصحة",
+      "moyen":true,
+      "format":["science"] ,
+      "specializations": [
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "الرياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "علوم البيطرة",
+      "moyen":true,
+      "format":["science"] ,
+      "specializations": [
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "الرياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم وتكنولوجيا",
+      "moyen":true,
+      "format":[ "math","physics"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "تقني",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان رياضيات وإعلام الي",
+      "moyen":true,
+      "format":[ "math"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "field_name": "المدرسة الوطنية العليا للرياضيات",
+      "moyen":true,
+      "format":[ "math"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "field_name": "المدرسة العليا للذكاء الاصطناعي",
+      "moyen":true,
+      "format":[ "math"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "field_name": "المدرسة العليا للإعلام الآلي",
+      "moyen":true,
+      "format":[ "math"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان هندسة معمارية، عمران",
+      "moyen":true,
+      "format":[ "math"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        },
+        {
+          "name": "تقني",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم المادة",
+      "moyen":true,
+      "format":[ "math","physics"] ,
+      "specializations": [
+        {
+          "name": "رياضيات",
+          "priority": 1
+        },
+        {
+          "name": "تقني",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان آداب ولغات أجنبية",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "لغات أجنبية",
+          "priority": 1
+        },
+        {
+          "name": "اداب وفلسفة",
+          "priority": 2
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 3
+        },
+        {
+          "name": "تسيير واقتصاد",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان ترجمة",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "لغات أجنبية",
+          "priority": 1
+        },
+        {
+          "name": "اداب وفلسفة",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان لغة وأدب عربي",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "لغات أجنبية",
+          "priority": 1
+        },
+        {
+          "name": "اداب وفلسفة",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "تسيير واقتصاد",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم انسانية واجتماعية",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "لغات أجنبية",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "اداب وفلسفة",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان حقوق وعلوم سياسية",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "لغات أجنبية",
+          "priority": 1
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 2
+        },
+        {
+          "name": "اداب وفلسفة",
+          "priority": 1
+        },
+        {
+          "name": "تسيير واقتصاد",
+          "priority": 1
+        },
+        {
+          "name": "رياضيات",
+          "priority": 2
+        },
+        {
+          "name": "تقني",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "field_name": "ميدان علوم اقتصادية والتسيير وعلوم تجارية",
+      "moyen":false,
+      "specializations": [
+        {
+          "name": "تقني",
+          "priority": 3
+        },
+        {
+          "name": "علوم تجريبية",
+          "priority": 3
+        },
+        {
+          "name": "تسيير واقتصاد",
+          "priority": 1
+        },        {
+          "name": "رياضيات",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

@@ -5,30 +5,30 @@ class AppTextStyles {
 
   static const TextStyle h1 = TextStyle(
     fontFamily: fontFamily,
-    fontSize: 45,
+    fontSize: 40,
   );
 
   static const TextStyle h2 = TextStyle(
     fontFamily: fontFamily,
     fontWeight: FontWeight.w300,
-    fontSize: 35,
+    fontSize: 30,
   );
 
   static const TextStyle h3 = TextStyle(
     fontFamily: fontFamily,
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: FontWeight.w400,
   );
 
   static const TextStyle h4 = TextStyle(
     fontFamily: fontFamily,
-    fontSize: 25,
+    fontSize: 20,
     fontWeight: FontWeight.w500,
   );
 
   static const TextStyle h5 = TextStyle(
     fontFamily: fontFamily,
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: FontWeight.w700,
   );
 
@@ -40,6 +40,7 @@ class AppTextStyles {
   static const TextStyle bodySm = TextStyle(
     fontFamily: fontFamily,
     fontSize: 14,
+
   );
 
   static const TextStyle bodyLg = TextStyle(
